@@ -1,36 +1,72 @@
 <!DOCTYPE html>
-<header>
+<head>
 <meta charset="utf-8">
 <! Commenting out until ready to use external sheet:
 <link rel="stylesheet" type="text/css" href="main.stylesheet.css">
+
 <style type="text/css">
-.nav {
-  height: 100%;
-  float: left;
-  width: 20%;
-  font-color: red;
-}
-.body {
-  float: right;
-  width: 80%;
-}
-#body_welcome {
-  align: center;
-  clear: both;
+	body {
 
-}
+		width: auto;
+	}
+	footer {
+		clear: both;
+		border: 2px grey solid;
+		overflow: hidden;
+		width: 100%;
+
+	}
+	#menu {
+	  height: 100%;
+		float: left;
+	  width: 20%;
+		background-color: gray;
+		border: 2px black solid;
+
+	}
+	#body_welcome {
+	  text-align: center;
+	  clear: both;
+		font-weight: bold;
+		padding: 5px;
+	}
+	#message {
+		padding: 5px;
+	}
+
+	#operation_hours {
+		float: left;
+	  width: 40%;
+		position: relative;
+		padding: 5px;
+	}
+	#useful_links {
+		float: right;
+		width: 40%;
+		position: relative;
+		padding: 5px;
+	}
+
+
+
 </style>
-</header>
+</head>
 <body>
-<nav>
-	<ul>
-		<li>About Us</li>
-		<li>Store Location</li>
-		<li>Grooming</li>
-		<li>Contact Us</li>
-	</ul>
-<h2 id="body_welcome"><strong>Welcome to Woodstock Grooming</strong></h2>
+	<nav id="menu">
+		<ul>
+			<li>About Us</li>
+			<li>Store Location</li>
+			<li>Grooming</li>
+			<li>Contact Us</li>
+		</ul>
+	</nav>
+	<div id="main">
+		<span id="body_welcome"><h2>Welcome to Woodstock Grooming and Board</h2></span>
+		</div>
+		<div id="message">
+			<p>This is the body message.</p>
 
+	</div>
 
 
 </body>
