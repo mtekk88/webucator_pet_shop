@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-<! Commenting out until ready to use external sheet:
-<link rel="stylesheet" type="text/css" href="main.stylesheet.css">
-
 <style type="text/css">
-	body {
-		width: auto;
-	}
+
 	footer {
 		clear: both;
 		border: 2px grey solid;
 		overflow: hidden;
-		width: 100%;
+		width: auto;
 		height: 20%;
+		margin-left: 5px;
+		margin-right: 5px;
 
 	}
 	#menu {
 	  height: 15%;
 		clear: both;
 	  width: auto;
-		background-color: #aaaaaa;
-		border: 2px black solid;
-		position: relative;
-
 	}
+
 	#menu ul {
 		display: flex;
-		flex-flow: row wrap;
+		flex-flow: row;
 		justify-content: space-between;
-		margin-top: 0px;
-		margin-bottom: 0px;
-
-
+		margin: 5px;
+		padding: 0px;
 	}
 	#menu li {
 		font-size: 1.75em;
 		list-style-type: none;
- 		width: 25%;
-		height: 96px;
+ 		width: 20%;
 		text-align: center;
 		transition: background-color 0.5s;
-
+		margin: 10px:
+		padding: 5px;
+		overflow: hidden;
 
 	}
 	#menu li:hover {
 		background-color: #85d191;
+	}
+	.border {
+		border: 2px solid grey;
+		border-radius: 10px;
 	}
 	#body_welcome {
 	  text-align: center;
@@ -62,12 +59,16 @@
 	  width: 40%;
 		position: relative;
 		padding: 5px;
+		margin: 5px;
+		height:auto;
 	}
 	#useful_links {
 		float: right;
 		width: 40%;
 		position: relative;
 		padding: 5px;
+		margin: 5px;
+		height: auto;
 	}
 	#main {
 		height: 65%;
@@ -83,23 +84,23 @@
 <body>
 	<nav id="menu">
 		<ul>
-			<li>About Us</li>
-			<li>Store Location</li>
-			<li>Grooming</li>
-			<li>Contact Us</li>
+			<li class="border">About Us</li>
+			<li class="border">Store Location</li>
+			<li class="border">Grooming</li>
+			<li class="border">Contact Us</li>
 		</ul>
 	</nav>
 	<div id="main">
 		<span id="body_welcome"><h2>Welcome to Woodstock Grooming and Board</h2></span>
 		</div>
 		<div id="message">
-			<p>This is the body message.</p>
+			<p>This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.This is the body message.</p>
 
 	</div>
 
 
 </body>
-<footer>
+<footer class="border">
 <div id="operation_hours">
 	<h4>Our Hours of Operation are:</h4>
 	<p>Monday - Friday: 9am - 7pm</p>
