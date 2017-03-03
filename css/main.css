@@ -21,15 +21,28 @@
   margin: 10px:
   padding: 5px;
   overflow: hidden;
+  background-color: #cdd8cf;
 
 }
 #menu li:hover {
   background-color: #85d191;
 }
-
-#message {
-  padding: 5px;
+#loc_col {
+  float: left;
+  width: 40%
+  margin-left: 25px;
 }
+#loc_map {
+  float: right;
+  width: 40%;
+  height: 500px;
+  padding: 10px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  position: relative;
+
+}
+
 
 #operation_hours {
   float: left;
@@ -38,6 +51,7 @@
   padding: 5px;
   margin: 5px;
   height:auto;
+  text-align: center;
 }
 #useful_links {
   float: right;
@@ -46,4 +60,8 @@
   padding: 5px;
   margin: 5px;
   height: auto;
+  text-align: center;
+}
+#loc_message {
+  overflow: hidden;
 }
