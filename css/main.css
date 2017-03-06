@@ -1,31 +1,38 @@
 
 #menu {
-  height: 15%;
+  height: 25%;
   clear: both;
   width: auto;
+  background-color: black;
+  padding: 5px;
+
 }
 
 #menu ul {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  margin: 5px;
-  padding: 0px;
+  margin: 0px;
+  padding: 0px 50px 0px 50px;
 }
-#menu li {
+#menu a {
   font-size: 1.75em;
   list-style-type: none;
   width: 20%;
   text-align: center;
-  transition: background-color 0.5s;
+  transition: color 0.5s;
   margin: 10px:
   padding: 5px;
   overflow: hidden;
-  background-color: #cdd8cf;
+  background-color: inherit;
+  color: grey;
 
 }
-#menu li:hover {
-  background-color: #85d191;
+#menu a:hover {
+  color: white;
+
+
+
 }
 #loc_col {
   float: left;
@@ -43,11 +50,10 @@
 
 }
 
-
 #operation_hours {
   float: left;
-  width: 40%;
-  position: relative;
+
+
   padding: 5px;
   margin: 5px;
   height:auto;
@@ -55,12 +61,19 @@
 }
 #useful_links {
   float: right;
-  width: 40%;
-  position: relative;
+
   padding: 5px;
   margin: 5px;
   height: auto;
   text-align: center;
+}
+#smile {
+  overflow: hidden;
+  padding: 5px;
+  margin: 5px;
+  height: 25%;
+  width: 25%;
+
 }
 #loc_message {
   overflow: hidden;

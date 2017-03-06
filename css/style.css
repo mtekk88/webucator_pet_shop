@@ -2,12 +2,14 @@
   border: 2px solid grey;
 
 }
-a {
+
+a:link {
   text-decoration: none;
+  color: grey;
 }
 a:visited {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 h1 {
@@ -16,29 +18,36 @@ h1 {
   font-weight: bold;
   padding: 5px;
 }
-footer h4 {
-  background-color: #85d191;
+footer div div:nth-child(1)  {
+  font-size: 1.75em;
+  color: white;
 }
 footer {
   clear: both;
-  border: 2px grey solid;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
   overflow: hidden;
   width: auto;
   height: 20%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: #cdd8cf;
+  color: grey;
+  background-color: #000;
 
 
 }
 footer li {
     list-style-type: none;
+    font-size: 1.25em;
+
+}
+body {
+  margin-left: 0px;
+  margin-right: 0px;
 
 }
 
-
 .content {
-  height: 65%;
+  height: 60%;
   clear: both;
   margin-left: 10px;
   margin-right: 10px;
@@ -51,4 +60,9 @@ footer li {
 .space {
   width: 10%
   position: relative;
+}
+
+body {
+  padding-top: 0px;
+  margin-top: 0px;
 }
