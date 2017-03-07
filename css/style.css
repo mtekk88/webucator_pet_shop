@@ -18,11 +18,11 @@ h1 {
   font-weight: bold;
   padding: 5px;
 }
-footer div div:nth-child(1)  {
+.footer span  {
   font-size: 1.75em;
   color: white;
 }
-footer {
+.footer {
   clear: both;
   display: flex;
   flex-flow: row;
@@ -35,7 +35,7 @@ footer {
 
 
 }
-footer li {
+.footer li {
     list-style-type: none;
     font-size: 1.25em;
 
