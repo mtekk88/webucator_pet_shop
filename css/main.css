@@ -1,49 +1,156 @@
-
+html, body {
+  height: 100%;
+  font-family: Smallcaps, arial;
+}
 #menu {
-  height: 15%;
   clear: both;
   width: auto;
+  background-color: black;
+  padding: 5px;
+  height: 10%;
+
 }
 
 #menu ul {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  margin: 5px;
-  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px 50px 0px 50px;
+  text-align: center;
 }
-#menu li {
+#menu a {
   font-size: 1.75em;
   list-style-type: none;
   width: 20%;
   text-align: center;
-  transition: background-color 0.5s;
+  transition: color 0.5s;
   margin: 10px:
   padding: 5px;
   overflow: hidden;
+  background-color: inherit;
+  color: grey;
+  text-decoration: none;
 
 }
-#menu li:hover {
-  background-color: #85d191;
-}
+#menu a:hover {
+  color: white;
 
-#message {
-  padding: 5px;
+
+
+}
+#loc_col {
+  float: left;
+  width: 40%
+  margin-left: 25px;
+}
+#loc_map {
+  float: right;
+  width: 40%;
+  height: 500px;
+  padding: 10px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  position: relative;
+
 }
 
 #operation_hours {
   float: left;
-  width: 40%;
-  position: relative;
-  padding: 5px;
+  padding: 5px 5px 5px 50px;
   margin: 5px;
   height:auto;
+  text-align: center;
 }
 #useful_links {
-  float: right;
-  width: 40%;
-  position: relative;
-  padding: 5px;
+  float: left;
+  padding: 5px 75px 5px 5px;
   margin: 5px;
   height: auto;
+  text-align: center;
+}
+#smile {
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  margin: 10px 5px 5px 5px;
+  height: 100px;
+  width: 25%;
+  border: 2px solid red;
+
+}
+#loc_message {
+  overflow: hidden;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+.content h1 {
+  text-align: center;
+  clear: both;
+  font-weight: bold;
+  padding: 5px;
+}
+.footer span  {
+  font-size: 1.75em;
+  color: white;
+}
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  text-align: center;
+  color: grey;
+  background-color: #000;
+  clear: both;
+}
+.footer li {
+    list-style-type: none;
+    font-size: 1.25em;
+
+}
+body {
+  margin: 0;
+  position: relative;
+  
+
+
+}
+
+.content {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 1500px;
+  width: 100%;
+  position: relative;
+  height: 70%;
+
+}
+.content h1 {
+  margin-top: 0;
+}
+.message {
+  padding: 5px;
+  font-size: 1.25em;
+}
+
+
+body {
+  padding-top: 0px;
+  margin-top: 0px;
 }
